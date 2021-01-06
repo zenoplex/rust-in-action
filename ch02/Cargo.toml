@@ -1,0 +1,90 @@
+[package]
+name = "ch02"
+version = "0.1.0"
+authors = ["Gen Ichino <zenoplex@gmail.com>"]
+edition = "2018"
+autobins = false
+autoexamples = false
+autotests = false
+autobenches = false
+
+[[bin]]
+name = "first-steps"
+path = "first-steps.rs"
+
+[[bin]]
+name = "intro-to-numbers"
+path = "intro-to-numbers.rs"
+
+[[bin]]
+name = "non-base2"
+path = "non-base2.rs"
+
+[[bin]]
+name = "complex"
+path = "complex.rs"
+
+[[bin]]
+name = "needle-in-haystack"
+path = "needle-in-haystack.rs"
+
+[[bin]]
+name = "bell-numbers"
+path = "bell-numbers.rs"
+
+[[bin]]
+name = "catalan-numbers"
+path = "catalan-numbers.rs"
+
+[[bin]]
+name = "while-true-incr-count"
+path = "while-true-incr-count.rs"
+
+[[bin]]
+name = "match-needles"
+path = "match-needles.rs"
+
+[[bin]]
+name = "add-with-lifetimes"
+path = "add-with-lifetimes.rs"
+
+[[bin]]
+name = "generic-add"
+path = "generic-add.rs"
+
+[[bin]]
+name = "str-simple-pattern"
+path = "str-simple-pattern.rs"
+
+[[bin]]
+name = "simple-with-linenums"
+path = "simple-with-linenums.rs"
+
+[[bin]]
+name = "simple-with-enumerate"
+path = "simple-with-enumerate.rs"
+
+[[bin]]
+name = "3arrays"
+path = "3arrays.rs"
+
+[[bin]]
+name = "introducing-vec"
+path = "introducing-vec.rs"
+
+[[bin]]
+name = "with-regex"
+path = "with-regex.rs"
+
+[[bin]]
+name = "read-file"
+path = "read-file.rs"
+
+[[bin]]
+name = "bufreader-lines"
+path = "bufreader-lines.rs"
+
+[dependencies]
+num = "0.3.1"
+regex = "1.4.2"
+time = "0.2.23"
