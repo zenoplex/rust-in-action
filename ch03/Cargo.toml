@@ -1,0 +1,47 @@
+[package]
+name = "ch03"
+version = "0.1.0"
+authors = ["Gen Ichino <zenoplex@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "not-quite-file-1"
+path = "not-quite-file-1.rs"
+
+[[bin]]
+name = "not-quite-file-2"
+path = "not-quite-file-2.rs"
+
+[[bin]]
+name = "mock-file"
+path = "mock-file.rs"
+
+[[bin]]
+name = "newtype-pattern"
+path = "newtype-pattern.rs"
+
+[[bin]]
+name = "defining-files-neatly"
+path = "defining-files-neatly.rs"
+
+[[bin]]
+name = "parse-log"
+path = "parse-log.rs"
+
+[[bin]]
+name = "file-states"
+path = "file-states.rs"
+
+[[bin]]
+name = "skeleton-read-trait"
+path = "skeleton-read-trait.rs"
+
+[[bin]]
+name = "implimenting-display"
+path = "implimenting-display.rs"
+
+[[bin]]
+name = "file-doced"
+path = "file-doced.rs"
+
+[dependencies]
