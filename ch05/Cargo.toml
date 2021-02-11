@@ -1,0 +1,45 @@
+[package]
+name = "ch05"
+version = "0.1.0"
+authors = ["Gen Ichino <zenoplex@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "02-int-vs-int"
+path = "02-int-vs-int.rs"
+
+[[bin]]
+name = "03-f32-as-u32"
+path = "03-f32-as-u32.rs"
+
+[[bin]]
+name = "04-to-oblivion"
+path = "04-to-oblivion.rs"
+
+[[bin]]
+name = "05-u16-bit-patterns"
+path = "05-u16-bit-patterns.rs"
+
+[[bin]]
+name = "06-impossible-addition"
+path = "06-impossible-addition.rs"
+
+[[bin]]
+name = "07-endianness"
+path = "07-endianness.rs"
+
+[[bin]]
+name = "08-visualizing-f32"
+path = "08-visualizing-f32.rs"
+
+[[bin]]
+name = "20-u8-to-mock-random"
+path = "20-u8-to-mock-random.rs"
+
+[[bin]]
+name = "24-extracting-opcode"
+path = "24-extracting-opcode.rs"
+
+[dependencies]
