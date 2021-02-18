@@ -1,0 +1,34 @@
+[package]
+name = "ch06"
+version = "0.1.0"
+authors = ["Gen Ichino <zenoplex@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "01-pointer"
+path = "01-pointer.rs"
+
+[[bin]]
+name = "03-cow"
+path = "03-cow.rs"
+
+[[bin]]
+name = "06-coercing-reference"
+path = "06-coercing-reference.rs"
+
+[[bin]]
+name = "07-cast-reference-transmute"
+path = "07-cast-reference-transmute.rs"
+
+[[bin]]
+name = "09-is-strong-password"
+path = "09-is-strong-password.rs"
+
+[[bin]]
+name = "11-heap"
+path = "11-heap.rs"
+
+
+[dependencies]
