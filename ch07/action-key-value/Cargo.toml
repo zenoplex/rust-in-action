@@ -1,0 +1,25 @@
+[package]
+name = "action-key-value"
+version = "0.1.0"
+authors = ["Gen Ichino <zenoplex@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bincode = "1.3.2"
+byteorder = "1.3.4"
+crc = "1.8.1"
+serde = { version = "1.0.123", features = ["derive"] }
+
+[lib]
+name = "libactionkeyvalue"
+path = "src/lib.rs"
+
+[[bin]]
+name = "mem"
+path = "src/mem.rs"
+
+[[bin]]
+name = "disk"
+path = "src/disk.rs"
